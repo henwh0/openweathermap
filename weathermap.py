@@ -8,15 +8,10 @@ def get_weather(city):
     weather_conditions = data["weather"][0]["description"]
     temperature = data["main"]["temp"]
     windspeed = data["wind"]["speed"]
-    humidity = data["main"]["humidity"]
-    longitude = data["coord"]["lon"]
-    latitude = data["coord"]["lat"]
 
     print(f"Weather in {city}: {weather_conditions}")
     print(f"Temperature: {temperature}°F")
     print(f"Wind Speed: {windspeed}mph")
-    print(f"Humidity: {humidity}%")
-    print(f"Location: {longitude}, {latitude}")
 
 def main():
     while True:
