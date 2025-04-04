@@ -5,7 +5,7 @@ first visit https://openweathermap.org
 
 create an account then retrieve your API key.
 
-Input your api key in the api key field 
+Input your api key in the "api key" line
 
 lastly execute the script
 
