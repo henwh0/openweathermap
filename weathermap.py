@@ -7,7 +7,7 @@ def get_weather(city):
     
     weather_conditions = data["weather"][0]["description"]
     temperature = data["main"]["temp"]
-    windspeed= data["wind"]["speed"]
+    windspeed = data["wind"]["speed"]
 
     print(f"Weather in {city}: {weather_conditions}")
     print(f"Temperature: {temperature}°F")
