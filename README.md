@@ -1,5 +1,5 @@
 # openweathermap
-input a city name in your terminal and get a simple weather report
+input a city name in your terminal and get a weather report
 
 first visit https://openweathermap.org
 
