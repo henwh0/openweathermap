@@ -11,4 +11,4 @@ lastly execute the script
 
 this is a very generic script..
 
-adding "print(data)" will show you more variables that you can add for more info at your location.
+adding print(data) will show you more variables that you can add for more info at your location.
